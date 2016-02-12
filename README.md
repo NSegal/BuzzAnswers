@@ -5,7 +5,7 @@ I wondered how Buzzfeed tallied up their quiz scores to you an answer. While pok
 ## 3 ways to use:
 
 ##### 1. Recommended: Paste in Address Bar
-Visit your a Buzzfeed Quiz and paste the following code into your browser's address bar. Inevitably the beginning part of the code that says *javascript:* will be removed so after pasting you will have to retype **javascript:**
+Visit a Buzzfeed Quiz and paste the following code into your browser's address bar. Inevitably the beginning part of the code that says *javascript:* will be removed so after pasting you will have to retype **javascript:**
 
 ```
 javascript:;(function() {var results=document.querySelectorAll(".quiz_result_area, .quiz_tally_results, .quiz_result");for(var i=0;i<results.length;i++){console.log(results[i]);var newSrc = results[i].getElementsByClassName("quiz_img_and_source")[0].querySelectorAll('img.result_img')[0].getAttribute('data:src');results[i].getElementsByClassName("quiz_img_and_source")[0].querySelectorAll('img.result_img')[0].setAttribute("src", newSrc);if(results[i].style){results[i].style.display="block"}}document.querySelector(".quiz_result_area").id="quiz_results";window.location.hash="quiz_results";}());
