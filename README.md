@@ -1,6 +1,6 @@
 # BuzzAnswers
 
-I wondered how Buzzfeed tallied up their quiz scores to you an answer. While poking around I figured out a way to display all of the answers. Here is a bookmarketlet I created that shows you all of the possible answers to a quiz. It's fun to use after you've already answered the quiz.
+I wondered how Buzzfeed tallied up their quiz scores to you an answer. While poking around I figured out a way to display all of the answers. Here is a bookmarketlet I created that shows you all of the possible answers to a quiz. It's fun to use after you've already answered a quiz.
 
 ## 3 ways to use:
 
